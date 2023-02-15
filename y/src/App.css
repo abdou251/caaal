@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+nav {
+  height: 5rem;
+
+  padding: 0 4rem 0 4rem;
+  background-color: rgb(62, 117, 218);
+}
+nav ul {
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li {
+  list-style-type: none;
+  font-size: 3rem;
+  color: white;
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24rem;
+}
+.products img {
+  width: 6rem;
+  height: 6rem;
+}
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
